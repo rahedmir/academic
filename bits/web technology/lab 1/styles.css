@@ -1,0 +1,73 @@
+/* Glogal CSS */
+
+body {
+  background-color: #1A165A;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ol {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+iframe {
+  height: 60vh;
+  width: 50vw;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+/* Custom CSS */
+
+.header, .footer {
+  color: #fff;
+  background-color: #ED1C24;
+  text-align: center;
+  padding: 15px;
+}
+
+.list-group {
+  --bs-list-group-border-width: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: -44px;
+ 
+}
+
+.list-group-item {
+  color: #fff;
+  background-color: #1A165A;
+  border-bottom: 1px solid #fff;
+}
+
+.main-body {
+  background-color: #fff;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.footer {
+  padding: 10px !important;
+}
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 821px) and (max-width: 991px) {
+
+  iframe {
+    width: 40vw;
+  } 
+}
+
+@media only screen and (max-width: 767px) {
+    
+  .list-group {
+    margin-left: -32px;
+  }
+}

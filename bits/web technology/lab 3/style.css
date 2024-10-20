@@ -1,0 +1,132 @@
+/* Glogal CSS */
+
+body {
+    background-color: #f4f4f4;  
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #5f5f5e !important;
+    border-bottom: 2px solid #646463;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+ul {
+    padding-left: inherit;
+}
+
+a {
+    color: #242532;
+}
+
+
+/* Custom CSS */
+
+.header, .footer {
+    color: #fff;
+    background-color: #403E3A;
+    text-align: center;
+    padding: 15px;
+}
+
+.header h2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.header p {
+    font-size: 0.9rem;
+}
+
+.header a:link {
+    color: #fff;
+    background-color: #f44336;
+    text-decoration: none;
+	padding: 10px 15px;	
+    margin: 10px;
+}
+
+.header a:hover {
+    color: #403E3A;
+    background-color: #fff;
+}
+
+.main {
+    background-color: #fff;
+    border-radius: 0.5%;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.skills-list-item, .social-list-item {
+    list-style-type: none;
+    border: 2px solid #5F5F5E;
+    border-radius: 5%;
+    float: left;
+    padding: 4px 10px 4px 10px ;
+    margin: 4px 10px 4px 0px;
+}
+
+.list-item {
+    float: left;
+    padding: 4px 10px 4px 0px;
+    margin: 4px 15px 4px 10px;
+}
+
+.social-list-item a {
+    text-decoration: none;
+}
+
+.social-list-item :hover {
+   color: #f44336;
+   font-weight: bold;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+   
+    .text-end {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+    
+    img {
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+}
+
+  @media only screen and (max-width: 285px) {
+    
+    .header p {
+        font-size: 0.8rem;
+    }  
+}
+
+@media only screen and (max-width: 263px) {
+    
+    .header p {
+        font-size: 0.7rem;
+    }
+}
+

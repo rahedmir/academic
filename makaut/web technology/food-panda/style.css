@@ -1,0 +1,215 @@
+
+/* Glogal CSS */
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   background-color: #E52D2D
+}
+
+h1, h2 {
+  font-family: Rowdies;
+  color: rgb(37,36,36);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Custom CSS */
+
+.logo {
+   height: 50px;
+   width: 50px;
+}
+
+.fa-navicon {
+   font-size: 28px;
+   color: #fff; 
+}
+
+.navbar {
+   margin-top: 20px;
+}
+
+.navbar-brand {
+   font-family: Rowdies;
+   font-size: 1.8rem;
+   font-weight: 100;
+   color: #fff;
+}
+
+.nav-link {
+   font-size: large;
+   color: #fff;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.nav-link:hover {
+   font-weight: bold;
+   color: rgb(37,36,36);
+}
+
+.navbar-toggler {
+   box-shadow: none !important;
+   border: 2px solid #fff;
+}
+
+.form-control {
+   box-shadow: none !important;
+   margin-top: 20px;
+   margin-bottom: 15px;
+}
+
+.btn {
+   color: rgb(37,36,36);
+   background-color: #fff;
+   height: 40px;
+   width: 120px;
+}
+
+.btn:hover {
+   font-weight: bold;
+   color: #fff;
+   background-color: rgb(37,36,36);
+}
+
+.header {
+   border-bottom: 15px solid #58585A;
+   padding: 0px 80px 100px 80px;
+}
+
+.header h1, .header h2, .header p {
+   color: #fff;
+}
+
+.header h1 {
+   text-align: center;
+}
+
+.header button {
+   font-weight: bold;
+   color: #fff;
+   background-color: transparent;
+   border: 2px solid #fff;
+   height: 45px;
+   width: 130px;
+   margin-top: 10px;
+}
+
+.header button:hover {
+   background-color: #1F8537;
+}
+
+.section-1, .section-2 {
+   background-color: #fff;
+   padding: 60px 80px 10px 80px;
+}
+
+.app-img {
+ height: 100;
+ width: 80%;
+}
+
+.app-store {
+   padding: 5px;
+}
+
+.app-store:hover {
+   cursor: pointer;
+}
+
+.section-2 {
+   border-bottom: 15px solid #58585A;
+}
+
+.section-2 img {
+   padding-top: 20px;
+   padding-bottom: 80px;
+}
+
+.footer {
+   color: #fff;
+   padding: 40px;
+}
+
+.footer p:hover {
+   font-weight: bold;
+   color: rgb(37,36,36);
+}
+
+.footer a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.link {
+   font-family: "Playwrite GB S", cursive;
+   font-style: normal;
+}
+
+.launcher {
+   color: #fff;
+   margin-top: 40px;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 1051px) {
+    
+   .app-store {
+      height: 57px;
+      width: 162px;
+   }
+ }
+
+ @media only screen and (max-width: 767px) {
+
+   .text-align {
+      text-align: center;
+   }
+
+   .img-food {
+      width: 60%;
+      margin-top: 40px;
+   }
+
+   .app-img {
+      width: 50%;
+     }
+
+   .footer-spacing {
+      margin-top: 40px;
+     }
+ }
+
+ @media only screen and (max-width: 578px) {
+    
+   .img-food {
+      width: 80%;
+   }
+
+   .app-img {
+      width: 60%;
+     }
+ }
+
+ @media only screen and (max-width: 450px) {
+    
+   .img-food {
+      width: 100%;
+   }
+
+   .app-img {
+      width: 80%;
+     }
+ }
