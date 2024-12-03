@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+
+    <body>
+        <p style="text-align:center"><font size="6%">Calculator</font></p>
+
+        <hr width="40%">
+
+        <table border="1" align="center" width="40%">
+            <tr>
+                <td>Enter 1st number</td>
+                <td><input type="number" id="num_1"></td>
+            </tr>
+            <tr>
+                <td>Enter 2nd number</td>
+                <td><input type="number" id="num_2"></td>
+            </tr>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Addition Number</td>
+                <td id="add"></td>
+            </tr>
+            <tr>
+                <td>Subtraction Number</td>
+                <td id="sub"></td>
+            </tr>
+            <tr>
+                <td>Multiplication Number</td>
+                <td id="mult"></td>
+            </tr>
+            <tr>
+                <td>Division Number</td>
+                <td id="div"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="button" value="Reasult" onclick="calculate();"></td>
+            </tr>
+        </table>
+    </body>
+
+<script>
+    function calculate()
+    {
+    var a,b,add,sub,mult,div;
+
+    a=parseInt(document.getElementById('num_1').value);
+    b=parseInt(document.getElementById('num_2').value);
+
+    add=a+b;
+    sub=a-b;
+    mult=a*b;
+    div=a/b;
+
+    document.getElementById('add').innerHTML=add;
+    document.getElementById('sub').innerHTML=sub;
+    document.getElementById('mult').innerHTML=mult;
+    document.getElementById('div').innerHTML=div;
+    }
+</script>
+</html>
